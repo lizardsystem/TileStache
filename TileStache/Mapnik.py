@@ -415,7 +415,7 @@ def encode_id(id):
     if id >= 92:
         id = id + 1
     if id > 127:
-        return unichar(id)
+        return unichr(id)
     return chr(id)
 
 def decode_char(char):
